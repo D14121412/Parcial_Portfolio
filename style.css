@@ -6,14 +6,21 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 10%;
+  margin-top: 5%;
+}
+.imagen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .redes {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10%;
+  margin-top: 50px;
+  margin-bottom: 5%;
 }
 .avatar {
   display: flex;
@@ -35,8 +42,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 5%;
 }
 footer {
   display: flex;
@@ -44,4 +53,9 @@ footer {
   align-items: center;
   background-color: rgb(31, 31, 31);
   color: white;
+}
+.card {
+  background-color: rgba(59, 59, 59, 0);
+  margin-left: 5%;
+  margin-right: 5%;
 }
